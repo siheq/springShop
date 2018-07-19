@@ -6,9 +6,9 @@ spring:
      multipart:
        max-file-size: 2MB
   datasource:
-      url: jdbc:mysql://10.222.39.90:3306/gltms?useUnicode=yes&characterEncoding=utf8&useSSL=true
+      url: jdbc:mysql://localhost:3306/test?useUnicode=yes&characterEncoding=utf8&useSSL=true
       username: root
-      password: root
+      password: Hexuantian123
       driver-class-name: com.mysql.jdbc.Driver
   jpa:
     show-sql: true

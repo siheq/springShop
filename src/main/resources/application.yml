@@ -1,0 +1,18 @@
+server:
+  port: 8090
+  connection-timeout: 120000
+spring:
+  servlet:
+     multipart:
+       max-file-size: 2MB
+  datasource:
+      url: jdbc:mysql://10.222.39.90:3306/gltms?useUnicode=yes&characterEncoding=utf8&useSSL=true
+      username: root
+      password: root
+      driver-class-name: com.mysql.jdbc.Driver
+  jpa:
+    show-sql: true
+    database: MySQL
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect

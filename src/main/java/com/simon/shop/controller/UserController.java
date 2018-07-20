@@ -8,7 +8,6 @@ public class UserController {
     @RequestMapping("/")
     public String UserLogin () {
         return "Success";
-
     }
 }
 
